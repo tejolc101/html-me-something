@@ -1,0 +1,53 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #5AA9B9;
+    font-size: 62.5%;
+    font-family:Times,serif;
+}
+
+header,
+main,
+footer {
+	background-color: #5AA9B9;
+	font-size: 1.6em;
+}
+
+header {
+	padding: 1.875em 0;
+}
+
+header h1 {
+	text-align: center;
+}
+h1 {
+	font-size: 2.5em;
+}
+
+div {
+	margin: 1.875em 0;
+}
+
+div:first-child {
+	margin-top: 0;
+}
+div ul {
+	text-align: center;
+	padding: 0;
+}
+div ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1.25em;
+}
+
+
+
+div:last-child {
+	margin-bottom: 0;
+}
