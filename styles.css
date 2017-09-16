@@ -15,7 +15,7 @@ header,
 main,
 footer {
 	background-color: #EFF9FB;
-	font-size: 1.5em;
+	font-size: 1.4em;
 }
 
 header {
@@ -27,7 +27,7 @@ header {
 
 
 h1 {
-	/*font-size: 2.5em;*/
+	
 	text-align: center;
 	color:#cc0000;
 }
@@ -73,14 +73,14 @@ figure div {
 
 }
 
-footer {
+
+
+#myname{
+	display: inline-block;
+	font-size:0.8em;
 	text-align: justify;
 	padding: 0;
-}
-
-footer p {
-	display: inline-block;
-	font-size:1em;
+	font-family:cursive;
 }
 
 img {
@@ -105,4 +105,6 @@ a:hover{
 
 .facts{
 	color:#3300CC;
+	font-size:1.1em;
+	
 }	
