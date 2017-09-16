@@ -1,53 +1,108 @@
+html{
+	margin:0;
+	padding:0;
+}
 body {
 	width: 100%;
 	max-width: 1024px;
 	margin: 0 auto;
-	background-color: #5AA9B9;
-    font-size: 62.5%;
+	background: #B0DDE8 url(http://www.printawallpaper.com/upload/designs/india_vector_detail.jpg);
+    
     font-family:Times,serif;
 }
 
 header,
 main,
 footer {
-	background-color: #5AA9B9;
-	font-size: 1.6em;
+	background-color: #EFF9FB;
+	font-size: 1.5em;
 }
 
 header {
-	padding: 1.875em 0;
+	padding: 1.em 0;
+	color:#1514F3;
+	font-family:Verdana;
+	
 }
 
-header h1 {
-	text-align: center;
-}
+
 h1 {
-	font-size: 2.5em;
+	/*font-size: 2.5em;*/
+	text-align: center;
+	color:#cc0000;
 }
-
+h1 span{
+	font:Bold;
+}
 div {
-	margin: 1.875em 0;
+	margin: 1.8em 0;
 }
 
 div:first-child {
 	margin-top: 0;
 }
-div ul {
-	text-align: center;
+main article ul {
+	text-align:center;
 	padding: 0;
+	font-size:1.25em;
 }
-div ul li {
+main article ul li {
 	display: inline-block;
 	margin-right: 1em;
 	font-size: 0.75em;
 }
 
-p {
-	padding: 1.25em;
+p{
+	padding: 1.2em;
 }
-
-
-
 div:last-child {
 	margin-bottom: 0;
 }
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figure div {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: left;
+	padding:0;
+	margin:0;
+
+}
+
+footer {
+	text-align: justify;
+	padding: 0;
+}
+
+footer p {
+	display: inline-block;
+	font-size:1em;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color:#56BFCA;
+	}
+a:visited { 
+	 
+	text-decoration: none; 
+	color:#D26C7C;
+	}
+a:hover{ 
+	text-decoration: underline; 
+	color: #3CE431;
+	}
+
+.facts{
+	color:#3300CC;
+}	
